@@ -13,10 +13,10 @@
     (fill (color 0 0 0 0.0000))
     (uuid 46bf04f8-f9cb-4e1b-92eb-26eef44e221b)
     (property "Sheetname" "power_supply" (at 58.293 85.0134 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+      (effects (font (size 1.27 1.27))) (justify left bottom))
     )
     (property "Sheetfile" "power_supply_36v.kicad_sch" (at 58.293 103.8356 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+      (effects (font (size 1.27 1.27))) (justify left top))
     )
     (instances
       (project "power_supply_36v_analog"
@@ -24,40 +24,40 @@
       )
     )
   
-    (pin bidirectional
+    (pin "TR21" bidirectional
       (at 58.293 93.27 0)
       (length 2.54)
-      (name "TR21" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid 7a009bfe-c8d4-4875-b607-138d4a7309a9)
     )
-    (pin bidirectional
+    (pin "TR11" bidirectional
       (at 58.293 98.34 0)
       (length 2.54)
-      (name "TR11" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid 98318681-8155-4e37-bdda-14809af4bcaa)
     )
-    (pin bidirectional
+    (pin "TR12" bidirectional
       (at 58.293 103.42 0)
       (length 2.54)
-      (name "TR12" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid d5ef7a5c-53d9-4a8f-b4bb-2a7af6061d3f)
     )
-    (pin bidirectional
+    (pin "TR22" bidirectional
       (at 58.293 108.50 0)
       (length 2.54)
-      (name "TR22" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid 3bfc98ad-a4a7-416b-a0a3-be39b261e9f6)
     )
-    (pin bidirectional
+    (pin "+36V" bidirectional
       (at 78.49 93.27 180)
       (length 2.54)
-      (name "+36V" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid 2488b588-5d61-4cc1-83df-d04167be2a0a)
     )
-    (pin bidirectional
+    (pin "-36V" bidirectional
       (at 78.49 98.34 180)
       (length 2.54)
-      (name "-36V" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid aa429c70-8d59-4e89-bdd3-80c2a09ec354)
     )
   )
@@ -67,10 +67,10 @@
     (fill (color 0 0 0 0.0000))
     (uuid 55b2facb-c398-4452-87b8-77db192c08b0)
     (property "Sheetname" "output_pwr" (at 226.441 47.9294 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+      (effects (font (size 1.27 1.27))) (justify left bottom))
     )
     (property "Sheetfile" "output_pwr.kicad_sch" (at 226.441 74.7526 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+      (effects (font (size 1.27 1.27))) (justify left top))
     )
     (instances
       (project "power_supply_36v_analog"
@@ -78,28 +78,28 @@
       )
     )
   
-    (pin bidirectional
+    (pin "output_U-" bidirectional
       (at 226.441 56.18 0)
       (length 2.54)
-      (name "output_U-" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid 36eb627f-131f-4925-8f2e-ca394d55f239)
     )
-    (pin bidirectional
+    (pin "U+" bidirectional
       (at 262.25 56.18 180)
       (length 2.54)
-      (name "U+" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid c00cd653-1d02-4b9e-a27b-a8d8becdf588)
     )
-    (pin bidirectional
+    (pin "V-" bidirectional
       (at 262.25 61.26 180)
       (length 2.54)
-      (name "V-" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid dc76e0ee-bbc3-4801-ab6e-9bc1c190d349)
     )
-    (pin bidirectional
+    (pin "U-" bidirectional
       (at 262.25 66.34 180)
       (length 2.54)
-      (name "U-" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid c1dc487a-f266-4943-b292-58679303bd01)
     )
   )
@@ -109,10 +109,10 @@
     (fill (color 0 0 0 0.0000))
     (uuid 919fd8e0-b9e1-4321-a23c-95eb9048a663)
     (property "Sheetname" "pwr_driver_output" (at 165.1 48.0564 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+      (effects (font (size 1.27 1.27))) (justify left bottom))
     )
     (property "Sheetfile" "pwr_driver_output.kicad_sch" (at 165.1 75.1336 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+      (effects (font (size 1.27 1.27))) (justify left top))
     )
     (instances
       (project "power_supply_36v_analog"
@@ -120,28 +120,28 @@
       )
     )
   
-    (pin bidirectional
+    (pin "AMPERIMETRO+" bidirectional
       (at 165.1 56.31 0)
       (length 2.54)
-      (name "AMPERIMETRO+" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid 749c2cc2-0849-478d-9b34-ddde53a379ba)
     )
-    (pin bidirectional
+    (pin "to_base_driver_adjust" bidirectional
       (at 209.30 56.31 180)
       (length 2.54)
-      (name "to_base_driver_adjust" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid c5e63a9e-9ef5-42de-91f3-b8a9ee08c204)
     )
-    (pin bidirectional
+    (pin "NODO_001" bidirectional
       (at 209.30 61.39 180)
       (length 2.54)
-      (name "NODO_001" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid c919c13a-1b55-45d1-817b-b9ef09c107fe)
     )
-    (pin bidirectional
+    (pin "U+" bidirectional
       (at 209.30 66.47 180)
       (length 2.54)
-      (name "U+" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid dedaee58-a963-4c31-b853-1d6e980ce0bd)
     )
   )
@@ -151,10 +151,10 @@
     (fill (color 0 0 0 0.0000))
     (uuid a6b507f7-242f-4bb3-bd94-8c36c70ba428)
     (property "Sheetname" "control_driver" (at 122.174 67.7414 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+      (effects (font (size 1.27 1.27))) (justify left bottom))
     )
     (property "Sheetfile" "control_driver.kicad_sch" (at 122.174 140.5386 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+      (effects (font (size 1.27 1.27))) (justify left top))
     )
     (instances
       (project "power_supply_36v_analog"
@@ -162,34 +162,34 @@
       )
     )
   
-    (pin bidirectional
+    (pin "US-" bidirectional
       (at 122.174 75.99 0)
       (length 2.54)
-      (name "US-" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid d7dc61b5-37ba-4c4a-8138-4d94a39b7d18)
     )
-    (pin bidirectional
+    (pin "output_U-" bidirectional
       (at 152.15 75.99 180)
       (length 2.54)
-      (name "output_U-" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid d0fd017d-434c-4d9c-95aa-80460389d926)
     )
-    (pin bidirectional
+    (pin "to_base_driver_adjust" bidirectional
       (at 152.15 81.07 180)
       (length 2.54)
-      (name "to_base_driver_adjust" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid 5e60be76-a75e-43cc-b956-32c630d1bdac)
     )
-    (pin bidirectional
+    (pin "NODO_001" bidirectional
       (at 152.15 86.15 180)
       (length 2.54)
-      (name "NODO_001" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid be31f6c1-86d3-4cfb-845a-9fafe2bd18a7)
     )
-    (pin bidirectional
+    (pin "U-" bidirectional
       (at 152.15 91.23 180)
       (length 2.54)
-      (name "U-" (effects (font (size 1.27 1.27))))
+      (effects (font (size 1.27 1.27)))
       (uuid c623bc53-064e-4d0a-80da-03478fba69b4)
     )
   )
@@ -199,10 +199,10 @@
     (fill (color 0 0 0 0.0000))
     (uuid de02d1dd-ef8e-4342-aa20-c9223be4c4a5)
     (property "Sheetname" "openScopeDigilentAnalogDevices" (at 184.404 93.3192 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+      (effects (font (size 1.27 1.27))) (justify left bottom))
     )
     (property "Sheetfile" "oScope_An_Devices.kicad_sch" (at 184.404 136.5254 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+      (effects (font (size 1.27 1.27))) (justify left top))
     )
     (instances
       (project "power_supply_36v_analog"
