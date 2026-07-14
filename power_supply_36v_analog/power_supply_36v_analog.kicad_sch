@@ -1,122 +1,665 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 30614b12-2e70-4eaa-ab37-37bf81f07fd3)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 58.293 85.725) (size 20.193 17.526) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 46bf04f8-f9cb-4e1b-92eb-26eef44e221b)
-    (property "Sheetname" "power_supply" (at 58.293 85.0134 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power_supply_36v.kicad_sch" (at 58.293 103.8356 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "power_supply_36v_analog"
-        (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "2"))
-      )
-    )
-    (pin "TR21" bidirectional (at 58.293 93.27 0) (effects (font (size 1.27 1.27))) (uuid 80be49b1-48e5-4e8f-97fb-6e427f9d1b92))
-    (pin "TR11" bidirectional (at 58.293 98.34 0) (effects (font (size 1.27 1.27))) (uuid 57b26f2e-c8ca-4909-8002-5300e2f9ea92))
-    (pin "TR12" bidirectional (at 58.293 103.42 0) (effects (font (size 1.27 1.27))) (uuid f2abb2e0-a797-4e87-aea4-7ff0c5ddab78))
-    (pin "TR22" bidirectional (at 58.293 108.50 0) (effects (font (size 1.27 1.27))) (uuid 55c0176a-fced-4e61-bdd0-ed61dde50cd2))
-    (pin "+36V" bidirectional (at 78.486 93.27 180) (effects (font (size 1.27 1.27))) (uuid 52c5202a-fcea-49a5-8158-8111334d310e))
-    (pin "-36V" bidirectional (at 78.486 98.34 180) (effects (font (size 1.27 1.27))) (uuid d4952efd-a0ae-44a0-83ba-38dd80f1a109))
-
-  )
-
-  (sheet (at 226.441 48.641) (size 35.814 25.527) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 55b2facb-c398-4452-87b8-77db192c08b0)
-    (property "Sheetname" "output_pwr" (at 226.441 47.9294 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "output_pwr.kicad_sch" (at 226.441 74.7526 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "power_supply_36v_analog"
-        (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "5"))
-      )
-    )
-    (pin "output_U-" bidirectional (at 226.441 56.18 0) (effects (font (size 1.27 1.27))) (uuid 19bf5642-ef8e-47bf-ad4b-23347c3d5560))
-    (pin "U+" bidirectional (at 262.255 56.18 180) (effects (font (size 1.27 1.27))) (uuid fcfc3886-e699-4659-9fb8-334e955c78fd))
-    (pin "V-" bidirectional (at 262.255 61.26 180) (effects (font (size 1.27 1.27))) (uuid 03fea8a6-7d5a-4dfb-ae68-b5ea9e5b8d6f))
-    (pin "U-" bidirectional (at 262.255 66.34 180) (effects (font (size 1.27 1.27))) (uuid d8b07146-f442-4a8b-b4a8-58fee3d08ca7))
-
-  )
-
-  (sheet (at 165.1 48.768) (size 44.196 25.781) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 919fd8e0-b9e1-4321-a23c-95eb9048a663)
-    (property "Sheetname" "pwr_driver_output" (at 165.1 48.0564 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "pwr_driver_output.kicad_sch" (at 165.1 75.1336 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "power_supply_36v_analog"
-        (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "3"))
-      )
-    )
-    (pin "AMPERIMETRO+" bidirectional (at 165.100 56.31 0) (effects (font (size 1.27 1.27))) (uuid 16304528-645b-4461-94d4-47154b6bc4df))
-    (pin "to_base_driver_adjust" bidirectional (at 209.296 56.31 180) (effects (font (size 1.27 1.27))) (uuid 7dcabef9-3243-4737-a3ae-b37fcb417923))
-    (pin "NODO_001" bidirectional (at 209.296 61.39 180) (effects (font (size 1.27 1.27))) (uuid 56d36c49-e62a-44b3-93d5-d44ba77a26c1))
-    (pin "U+" bidirectional (at 209.296 66.47 180) (effects (font (size 1.27 1.27))) (uuid 9b6a9827-ed58-49bc-be8f-1375cda3364b))
-
-  )
-
-  (sheet (at 122.174 68.453) (size 29.972 71.501) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid a6b507f7-242f-4bb3-bd94-8c36c70ba428)
-    (property "Sheetname" "control_driver" (at 122.174 67.7414 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "control_driver.kicad_sch" (at 122.174 140.5386 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "power_supply_36v_analog"
-        (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "4"))
-      )
-    )
-    (pin "US-" bidirectional (at 122.174 75.99 0) (effects (font (size 1.27 1.27))) (uuid e4a29007-9a2d-4c29-9850-6f1480f742e1))
-    (pin "output_U-" bidirectional (at 152.146 75.99 180) (effects (font (size 1.27 1.27))) (uuid b6287709-abd6-4bf7-92a9-d893cbacac8c))
-    (pin "to_base_driver_adjust" bidirectional (at 152.146 81.07 180) (effects (font (size 1.27 1.27))) (uuid 50025c3c-8d10-4ecd-a38a-d152d3283bfe))
-    (pin "NODO_001" bidirectional (at 152.146 86.15 180) (effects (font (size 1.27 1.27))) (uuid 3e4aa676-cf40-44e9-a0b8-f164f3e4faaf))
-    (pin "U-" bidirectional (at 152.146 91.23 180) (effects (font (size 1.27 1.27))) (uuid 4bfd55a3-0691-42ff-809c-0c3033cc3672))
-
-  )
-
-  (sheet (at 184.404 94.0308) (size 49.53 41.91) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid de02d1dd-ef8e-4342-aa20-c9223be4c4a5)
-    (property "Sheetname" "openScopeDigilentAnalogDevices" (at 184.404 93.3192 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oScope_An_Devices.kicad_sch" (at 184.404 136.5254 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "power_supply_36v_analog"
-        (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "6"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "30614b12-2e70-4eaa-ab37-37bf81f07fd3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 58.293 85.725)
+		(size 20.193 17.526)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "46bf04f8-f9cb-4e1b-92eb-26eef44e221b")
+		(property "Sheetname" "power_supply"
+			(at 58.293 85.0134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply_36v.kicad_sch"
+			(at 58.293 103.8356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TR21" bidirectional
+			(at 78.486 88.27 0)
+			(uuid "80be49b1-48e5-4e8f-97fb-6e427f9d1b92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "TR11" bidirectional
+			(at 78.486 90.81 0)
+			(uuid "57b26f2e-c8ca-4909-8002-5300e2f9ea92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "TR12" bidirectional
+			(at 78.486 93.34 0)
+			(uuid "f2abb2e0-a797-4e87-aea4-7ff0c5ddab78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "TR22" bidirectional
+			(at 78.486 95.89 0)
+			(uuid "55c0176a-fced-4e61-bdd0-ed61dde50cd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "+36V" bidirectional
+			(at 58.293 88.27 180)
+			(uuid "52c5202a-fcea-49a5-8158-8111334d310e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "-36V" bidirectional
+			(at 58.293 90.81 180)
+			(uuid "d4952efd-a0ae-44a0-83ba-38dd80f1a109")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "power_supply_36v_analog"
+				(path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.441 48.641)
+		(size 35.814 25.527)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "55b2facb-c398-4452-87b8-77db192c08b0")
+		(property "Sheetname" "output_pwr"
+			(at 226.441 47.9294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output_pwr.kicad_sch"
+			(at 226.441 74.7526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output_U-" input
+			(at 262.255 51.18 0)
+			(uuid "19bf5642-ef8e-47bf-ad4b-23347c3d5560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "U+" input
+			(at 226.441 51.18 180)
+			(uuid "fcfc3886-e699-4659-9fb8-334e955c78fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "V-" input
+			(at 226.441 53.72 180)
+			(uuid "03fea8a6-7d5a-4dfb-ae68-b5ea9e5b8d6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "U-" input
+			(at 226.441 56.26 180)
+			(uuid "d8b07146-f442-4a8b-b4a8-58fee3d08ca7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "power_supply_36v_analog"
+				(path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 48.768)
+		(size 44.196 25.781)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "919fd8e0-b9e1-4321-a23c-95eb9048a663")
+		(property "Sheetname" "pwr_driver_output"
+			(at 165.1 48.0564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwr_driver_output.kicad_sch"
+			(at 165.1 75.1336 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AMPERIMETRO+" input
+			(at 209.296 51.31 0)
+			(uuid "16304528-645b-4461-94d4-47154b6bc4df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "to_base_driver_adjust" input
+			(at 165.1 51.31 180)
+			(uuid "7dcabef9-3243-4737-a3ae-b37fcb417923")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "NODO_001" input
+			(at 165.1 53.85 180)
+			(uuid "56d36c49-e62a-44b3-93d5-d44ba77a26c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "U+" input
+			(at 165.1 56.39 180)
+			(uuid "9b6a9827-ed58-49bc-be8f-1375cda3364b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "power_supply_36v_analog"
+				(path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 122.174 68.453)
+		(size 29.972 71.501)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a6b507f7-242f-4bb3-bd94-8c36c70ba428")
+		(property "Sheetname" "control_driver"
+			(at 122.174 67.7414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control_driver.kicad_sch"
+			(at 122.174 140.5386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "US-" input
+			(at 152.146 70.99 0)
+			(uuid "e4a29007-9a2d-4c29-9850-6f1480f742e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "output_U-" input
+			(at 122.174 70.99 180)
+			(uuid "b6287709-abd6-4bf7-92a9-d893cbacac8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "to_base_driver_adjust" input
+			(at 122.174 73.53 180)
+			(uuid "50025c3c-8d10-4ecd-a38a-d152d3283bfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "NODO_001" input
+			(at 122.174 76.07 180)
+			(uuid "3e4aa676-cf40-44e9-a0b8-f164f3e4faaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "U-" input
+			(at 122.174 78.61 180)
+			(uuid "4bfd55a3-0691-42ff-809c-0c3033cc3672")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "power_supply_36v_analog"
+				(path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.404 94.0308)
+		(size 49.53 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "de02d1dd-ef8e-4342-aa20-c9223be4c4a5")
+		(property "Sheetname" "DiscoveryAnalog3"
+			(at 184.404 93.3192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oScope_An_Devices.kicad_sch"
+			(at 184.404 136.5254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AI1+{slash}OSC1 (1+)" bidirectional
+			(at 184.404 96.52 180)
+			(uuid "fc5bdcf1-f931-4b3d-b336-ecaf82f867f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AI2+{slash}OSC12(1+)" bidirectional
+			(at 184.404 99.06 180)
+			(uuid "ecac0ac7-57bb-4ff7-8334-057904ee22a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AWG1 (W1)" bidirectional
+			(at 184.404 101.6 180)
+			(uuid "cf7604a2-b18e-484b-baf0-4cf9b2ea487c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D1" bidirectional
+			(at 184.404 104.14 180)
+			(uuid "199b769c-52c3-4ed3-af30-8520079a4bd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D2" bidirectional
+			(at 184.404 106.68 180)
+			(uuid "8bfc4174-e55a-4754-bb15-250115cf5c83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D3" bidirectional
+			(at 184.404 109.22 180)
+			(uuid "bd595baf-3016-4ff1-b9eb-0fbe0adc519d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D4" bidirectional
+			(at 184.404 111.76 180)
+			(uuid "f5c147a9-c6e8-4469-b4bc-20455ac9a62d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D5" bidirectional
+			(at 184.404 114.3 180)
+			(uuid "29f7c3bc-1895-41b7-8073-9106a0decd4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D6" bidirectional
+			(at 184.404 116.84 180)
+			(uuid "292d31c9-e88c-4981-85a7-77bde2a2f989")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D7" bidirectional
+			(at 184.404 119.38 180)
+			(uuid "c4ba4ade-b489-4fba-a912-3613c62db2fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D8" bidirectional
+			(at 184.404 121.92 180)
+			(uuid "38b630e5-f77f-49dd-94fe-a51166c5c32f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC Output 1 (V1)" bidirectional
+			(at 233.934 101.6 0)
+			(uuid "0eeaaf7b-5659-40c4-8cec-18ca3efde84a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC Output 2 (V2)" bidirectional
+			(at 233.934 104.14 0)
+			(uuid "d917c72f-3dbe-4584-aa39-321bd0c6bca6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DO9 (9)" bidirectional
+			(at 184.404 124.46 180)
+			(uuid "db24c570-d235-45af-8df6-78511f3a013b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DO10 (10)" bidirectional
+			(at 184.404 127 180)
+			(uuid "69a9f821-fc04-4faf-9b45-9fb352dbda6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND{slash}AI1" bidirectional
+			(at 233.934 111.76 0)
+			(uuid "6ae34a75-d9bd-4efe-b5b0-5b81368bf1d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND{slash}AI2" bidirectional
+			(at 233.934 115.57 0)
+			(uuid "d9046791-81e1-4d1d-85e9-21948efb03e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT{slash}CLK1 (C1)" bidirectional
+			(at 233.934 119.38 0)
+			(uuid "15798303-118b-4e74-b508-3622f61afddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT{slash}CLK2 (C2)" bidirectional
+			(at 233.934 121.92 0)
+			(uuid "71389311-683e-45a1-b309-49b5db56f965")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDI{slash}SDO (P1)" bidirectional
+			(at 233.934 124.46 0)
+			(uuid "28d03cef-b2b1-40fe-8e02-40802ead55a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDI{slash}SDO{slash}UART_TX (P2)" bidirectional
+			(at 233.934 127 0)
+			(uuid "6b181b60-27fc-4db8-ad73-3559f63fc64b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CLK{slash}UART_CTS (P3)" bidirectional
+			(at 233.934 129.54 0)
+			(uuid "8e6e6663-1bba-4c8d-b387-0002a142b273")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trigger Input (T1)" bidirectional
+			(at 233.934 132.08 0)
+			(uuid "1e576cfc-b595-4033-904d-614df8b1476c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trigger Output (T0)" bidirectional
+			(at 233.934 134.62 0)
+			(uuid "a5102c0b-d483-4b87-b8a8-25a6a225c64c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX{slash}PWM2 (P5)" bidirectional
+			(at 233.934 99.06 0)
+			(uuid "4815560e-d5f2-44e4-9c4b-b07ff5b9e653")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "power_supply_36v_analog"
+				(path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

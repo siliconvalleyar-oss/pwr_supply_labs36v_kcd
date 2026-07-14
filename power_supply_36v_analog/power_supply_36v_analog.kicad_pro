@@ -677,6 +677,16 @@
       "/control_driver/p11": [
         "P11"
       ],
+      "/control_driver/p12": [
+        "P12",
+        "US-"
+      ],
+      "/output_pwr/U+": [
+        "U+"
+      ],
+      "/output_pwr/U-": [
+        "U-"
+      ],
       "GND": [
         "US+"
       ],
@@ -686,16 +696,9 @@
       "Net-(R414-Pad1)": [
         "P23"
       ],
-      "U+": [
-        "U+"
-      ],
-      "U-": [
-        "U-"
-      ],
-      "US-": [
-        "P12",
-        "US-"
-      ]
+      "U+": "U+",
+      "U-": "U-",
+      "US-": "P12"
     },
     "netclass_patterns": [
       {
@@ -857,16 +860,16 @@
       {
         "filename": "power_supply_36v_analog.kicad_sch",
         "name": "power_supply_36v_analog",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "30614b12-2e70-4eaa-ab37-37bf81f07fd3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-2",
     "variants": []
   },
   "sheets": [
     [
       "30614b12-2e70-4eaa-ab37-37bf81f07fd3",
-      ""
+      "power_supply_36v_analog"
     ],
     [
       "46bf04f8-f9cb-4e1b-92eb-26eef44e221b",
@@ -886,7 +889,7 @@
     ],
     [
       "de02d1dd-ef8e-4342-aa20-c9223be4c4a5",
-      "openScopeDigilentAnalogDevices"
+      "DiscoveryAnalog3"
     ]
   ],
   "text_variables": {},
