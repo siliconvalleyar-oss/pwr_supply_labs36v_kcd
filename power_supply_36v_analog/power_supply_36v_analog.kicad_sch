@@ -23,6 +23,43 @@
         (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "2"))
       )
     )
+  
+    (pin bidirectional line
+      (at 58.293 93.27 0)
+      (length 2.54)
+      (name "TR21" (effects (font (size 1.27 1.27))))
+      (uuid 7a009bfe-c8d4-4875-b607-138d4a7309a9)
+    )
+    (pin bidirectional line
+      (at 58.293 98.34 0)
+      (length 2.54)
+      (name "TR11" (effects (font (size 1.27 1.27))))
+      (uuid 98318681-8155-4e37-bdda-14809af4bcaa)
+    )
+    (pin bidirectional line
+      (at 58.293 103.42 0)
+      (length 2.54)
+      (name "TR12" (effects (font (size 1.27 1.27))))
+      (uuid d5ef7a5c-53d9-4a8f-b4bb-2a7af6061d3f)
+    )
+    (pin bidirectional line
+      (at 58.293 108.50 0)
+      (length 2.54)
+      (name "TR22" (effects (font (size 1.27 1.27))))
+      (uuid 3bfc98ad-a4a7-416b-a0a3-be39b261e9f6)
+    )
+    (pin bidirectional line
+      (at 78.49 93.27 180)
+      (length 2.54)
+      (name "+36V" (effects (font (size 1.27 1.27))))
+      (uuid 2488b588-5d61-4cc1-83df-d04167be2a0a)
+    )
+    (pin bidirectional line
+      (at 78.49 98.34 180)
+      (length 2.54)
+      (name "-36V" (effects (font (size 1.27 1.27))))
+      (uuid aa429c70-8d59-4e89-bdd3-80c2a09ec354)
+    )
   )
 
   (sheet (at 226.441 48.641) (size 35.814 25.527) (fields_autoplaced)
@@ -39,6 +76,31 @@
       (project "power_supply_36v_analog"
         (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "5"))
       )
+    )
+  
+    (pin bidirectional line
+      (at 226.441 56.18 0)
+      (length 2.54)
+      (name "output_U-" (effects (font (size 1.27 1.27))))
+      (uuid 36eb627f-131f-4925-8f2e-ca394d55f239)
+    )
+    (pin bidirectional line
+      (at 262.25 56.18 180)
+      (length 2.54)
+      (name "U+" (effects (font (size 1.27 1.27))))
+      (uuid c00cd653-1d02-4b9e-a27b-a8d8becdf588)
+    )
+    (pin bidirectional line
+      (at 262.25 61.26 180)
+      (length 2.54)
+      (name "V-" (effects (font (size 1.27 1.27))))
+      (uuid dc76e0ee-bbc3-4801-ab6e-9bc1c190d349)
+    )
+    (pin bidirectional line
+      (at 262.25 66.34 180)
+      (length 2.54)
+      (name "U-" (effects (font (size 1.27 1.27))))
+      (uuid c1dc487a-f266-4943-b292-58679303bd01)
     )
   )
 
@@ -57,6 +119,31 @@
         (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "3"))
       )
     )
+  
+    (pin bidirectional line
+      (at 165.1 56.31 0)
+      (length 2.54)
+      (name "AMPERIMETRO+" (effects (font (size 1.27 1.27))))
+      (uuid 749c2cc2-0849-478d-9b34-ddde53a379ba)
+    )
+    (pin bidirectional line
+      (at 209.30 56.31 180)
+      (length 2.54)
+      (name "to_base_driver_adjust" (effects (font (size 1.27 1.27))))
+      (uuid c5e63a9e-9ef5-42de-91f3-b8a9ee08c204)
+    )
+    (pin bidirectional line
+      (at 209.30 61.39 180)
+      (length 2.54)
+      (name "NODO_001" (effects (font (size 1.27 1.27))))
+      (uuid c919c13a-1b55-45d1-817b-b9ef09c107fe)
+    )
+    (pin bidirectional line
+      (at 209.30 66.47 180)
+      (length 2.54)
+      (name "U+" (effects (font (size 1.27 1.27))))
+      (uuid dedaee58-a963-4c31-b853-1d6e980ce0bd)
+    )
   )
 
   (sheet (at 122.174 68.453) (size 29.972 71.501) (fields_autoplaced)
@@ -73,6 +160,37 @@
       (project "power_supply_36v_analog"
         (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "4"))
       )
+    )
+  
+    (pin bidirectional line
+      (at 122.174 75.99 0)
+      (length 2.54)
+      (name "US-" (effects (font (size 1.27 1.27))))
+      (uuid d7dc61b5-37ba-4c4a-8138-4d94a39b7d18)
+    )
+    (pin bidirectional line
+      (at 152.15 75.99 180)
+      (length 2.54)
+      (name "output_U-" (effects (font (size 1.27 1.27))))
+      (uuid d0fd017d-434c-4d9c-95aa-80460389d926)
+    )
+    (pin bidirectional line
+      (at 152.15 81.07 180)
+      (length 2.54)
+      (name "to_base_driver_adjust" (effects (font (size 1.27 1.27))))
+      (uuid 5e60be76-a75e-43cc-b956-32c630d1bdac)
+    )
+    (pin bidirectional line
+      (at 152.15 86.15 180)
+      (length 2.54)
+      (name "NODO_001" (effects (font (size 1.27 1.27))))
+      (uuid be31f6c1-86d3-4cfb-845a-9fafe2bd18a7)
+    )
+    (pin bidirectional line
+      (at 152.15 91.23 180)
+      (length 2.54)
+      (name "U-" (effects (font (size 1.27 1.27))))
+      (uuid c623bc53-064e-4d0a-80da-03478fba69b4)
     )
   )
 

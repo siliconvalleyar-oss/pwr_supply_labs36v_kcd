@@ -32,3 +32,5 @@ _output/
 *.log
 *.tmp
 __pycache__/
+power_supply_36v_analog/.history/
+*.lck
