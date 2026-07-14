@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 30614b12-2e70-4eaa-ab37-37bf81f07fd3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 58.293 85.725) (size 20.193 17.526) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 46bf04f8-f9cb-4e1b-92eb-26eef44e221b)
+    (property "Sheetname" "power_supply" (at 58.293 85.0134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_supply_36v.kicad_sch" (at 58.293 103.8356 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_supply_36v_analog"
+        (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 226.441 48.641) (size 35.814 25.527) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 55b2facb-c398-4452-87b8-77db192c08b0)
+    (property "Sheetname" "output_pwr" (at 226.441 47.9294 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "output_pwr.kicad_sch" (at 226.441 74.7526 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_supply_36v_analog"
+        (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 165.1 48.768) (size 44.196 25.781) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 919fd8e0-b9e1-4321-a23c-95eb9048a663)
+    (property "Sheetname" "pwr_driver_output" (at 165.1 48.0564 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pwr_driver_output.kicad_sch" (at 165.1 75.1336 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_supply_36v_analog"
+        (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 122.174 68.453) (size 29.972 71.501) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a6b507f7-242f-4bb3-bd94-8c36c70ba428)
+    (property "Sheetname" "control_driver" (at 122.174 67.7414 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "control_driver.kicad_sch" (at 122.174 140.5386 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_supply_36v_analog"
+        (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 184.404 94.0308) (size 49.53 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid de02d1dd-ef8e-4342-aa20-c9223be4c4a5)
+    (property "Sheetname" "openScopeDigilentAnalogDevices" (at 184.404 93.3192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "oScope_An_Devices.kicad_sch" (at 184.404 136.5254 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_supply_36v_analog"
+        (path "/30614b12-2e70-4eaa-ab37-37bf81f07fd3" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,19 @@
+# KiCad auto-generated files
+fp-info-cache
+*.kicad_prl
+
+# Backup folders
+*-backups/
+
+# FreeRouting temporary files
+*.dsn
+temp-*.dsn
+
+# DRC/ERC reports
+report.txt
+
+# Backup files
+*.bak
+
+# OS files
+.DS_Store

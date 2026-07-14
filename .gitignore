@@ -11,6 +11,8 @@ fp-info-cache
 *.dsn
 temp-*.dsn
 report.txt
+*.csv
+!*.csv
 
 # === IDE / Editor ===
 .vscode/
@@ -22,6 +24,9 @@ report.txt
 # === Build artifacts ===
 build/
 _output/
+
+# === MiMoCode ===
+.mimocode/
 
 # === Misc ===
 *.log
